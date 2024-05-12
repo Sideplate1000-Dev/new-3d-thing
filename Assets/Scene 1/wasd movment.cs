@@ -1,24 +1,3 @@
-//using System.Collections;
-//using System.Collections.Generic;
-//using UnityEngine;
-
-//public class wasdmovment : MonoBehaviour
-//{
-//    public float speed = 5.0f; // Movement speed
-
-//    void Update()
-//    {
-//        // Get movement direction based on WASD keys
-//        float horizontalInput = Input.GetAxisRaw("Horizontal");
-//        float verticalInput = Input.GetAxisRaw("Vertical");
-
-//        // Create a movement vector
-//        Vector3 movement = new Vector3(horizontalInput, 0, verticalInput) * speed * Time.deltaTime;
-
-//        // Apply movement to the transform
-//        transform.Translate(movement);
-//    }
-//}
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
